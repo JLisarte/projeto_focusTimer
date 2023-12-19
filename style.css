@@ -25,6 +25,30 @@ html:not(.light) .ph-moon {
   display: none;
 }
 
+html:not(.light) .git-dark,
+html:not(.light) .linkedin-dark {
+  display: none;
+}
+
+html.light .git-light,
+html.light .linkedin-light {
+  display: none;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+footer p {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--text-color);
+}
+
 #toggle-mode {
   position: absolute;
   right: 3.2rem;
